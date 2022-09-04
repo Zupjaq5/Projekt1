@@ -1,0 +1,41 @@
+@{
+    ViewData["Title"] = "Kontakt";
+}
+
+<section id="form">
+        <div>
+            <div id="tekstform1">
+                <p>Imię:</p>
+                <p>&emsp;&emsp;&nbsp;&nbsp;<input type="text" name="name" /p>
+            </div>
+            <div id="tekstform2">
+                <p>Nazwisko:</p>
+                <p>&nbsp;&nbsp;<input type="text" name="lastName" /p>
+            </div>
+            <div id="tekstform3">
+                <p>Email:</p>
+                <p>&emsp;&emsp;<input type="email" name="mailOfClient" required /p>
+            </div>
+
+
+
+            <p>Rodzaj klienta:</p>
+
+            <input type="radio" name="TypeOfClient" value="OsobaPrywatna">Osoba prywatna
+            <input type="radio" name="TypeOfClient" value="Firma">Firma
+
+
+
+
+
+
+
+            <p>Opisz swoje zlecenie</p>
+            <textarea name="Komentarz" cols="100" rows="35"></textarea>
+            <br><br><br>
+            <!-- Przycisk WYŚLIJ -->
+            <input type="submit" value="Wyślij formularz">
+            <!-- Przycisk WYCZYŚĆ DANE -->
+            <input type="reset" value="Wyczyść dane">
+        </div>
+</section>

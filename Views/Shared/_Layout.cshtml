@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - ProjektFinalVesionV2</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<article class="article">
+    <section class="header">
+        <img id="logo" src="~/images/images/pixlr-bg-result%20(2).png" alt="Telefon kontaktowy" />
+
+        <img id="telefon" src="~/images/images/telefon.png" height="50" alt="tekst wyświetlany zamiast zdjęcia przy problemach" />
+        <a class="numer" href=”tel:+48515636868″>515 636 868</a>
+
+        <img id="lokalizacja" src="~/images/images/pixlr-bg-result.png" alt="Lokalizacja" />
+        <a class="numer " target="_blank" href="https://www.google.com/maps/place/Zawada+176,+32-445+Zawada/49.8802895,19.9582878,17z/data=!3m1!4b1!4m5!3m4!1s0x4716694222563e3b:0xf87cd8360259d6de!8m2!3d49.8802895!4d19.9582878"> Zawada 176, 32-445 </a>
+
+        <img id="internet" src="~/images/images/internet.png" alt="Domena" height="60" />
+        <a class="numer " target="_blank" href="#">Domena</a>
+    </section>
+    <nav class="nav">
+        <a id="nav1" href="/Home/Kontakt" class="bars"> Kontakt </a>
+        <a id="nav2" href="/Home/Index" class="bars"> O nas </a>
+        <a id="nav3" href="/Home/Galeria" class="bars"> Nasze realizacje </a>
+        <a id="nav4" href="/Home/Partnerzy" class="bars">Partnerzy</a>
+    </nav>
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)
+</article>
+<footer id="footer">
+    <span id="footerText">Zaufali nam</span>
+    <div id="log">&emsp;</div>
+</footer>
+</html>
