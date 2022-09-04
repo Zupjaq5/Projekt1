@@ -1,0 +1,366 @@
+﻿.header {
+    display: inline-block;
+    background-image: url(../images/images/t%C5%82o2.jpg);
+    background-size: 1548px 600px;
+    background-repeat: no-repeat;
+    width: 1548px;
+    animation-name: moja_animacja;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    background-position: center;
+    position: static;
+}
+
+@keyframes moja_animacja {
+    0% {
+        background-image: url(../images/images/t%C5%82o2.jpg );
+    }
+
+    50% {
+        background-image: url(../images/images/t%C5%82o1.jpg);
+    }
+}
+
+#tekstform1 {
+    display: flex;
+}
+
+#tekstform2 {
+    display: flex;
+}
+
+#tekstform3 {
+    display: flex;
+}
+
+#logo {
+    margin-left: 50px;
+}
+
+#telefon {
+    margin-left: 100px;
+    margin-bottom: 270px;
+    position: static;
+    border: 1px;
+    border-radius: 10px;
+}
+
+.numer {
+    position: relative;
+    bottom: 290px;
+    left: 20px;
+    font-style: normal;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 25px;
+    color: white;
+}
+
+    .numer:hover {
+        color: red;
+    }
+
+.article {
+    width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#lokalizacja {
+    margin-left: 100px;
+    margin-bottom: 240px;
+    position: static;
+}
+
+#internet {
+    margin-left: 100px;
+    margin-bottom: 270px;
+    position: static;
+}
+
+.nav {
+    font-weight: 700;
+    display: inline-block;
+    padding: 10px;
+    border: solid black 1px;
+    background-color: rgba(128, 128, 128, 0.3);
+}
+
+#nav1 {
+    margin-left: 250px;
+    text-decoration-line: none;
+    color: black;
+}
+
+#nav2 {
+    margin-left: 250px;
+    text-decoration-line: none;
+    color: black;
+}
+
+#nav3 {
+    margin-left: 250px;
+    text-decoration-line: none;
+    color: black;
+}
+
+#nav4 {
+    margin-left: 250px;
+    margin-right: 240px;
+    text-decoration-line: none;
+    color: black;
+}
+
+#nav1:hover {
+    color: red;
+}
+
+#nav2:hover {
+    color: red;
+}
+
+#nav3:hover {
+    color: red;
+}
+
+#nav4:hover {
+    color: red;
+}
+
+
+
+#bars {
+    text-align: center;
+    display: inline-block;
+    margin-top: 40px;
+    background-color: rgba(128, 128, 128, 0.3);
+    padding: 40px;
+    width: 1470px;
+}
+
+#form {
+    margin-left: 425px;
+    margin-top: 100px;
+}
+
+#gallerypic1 {
+    width: 20%;
+    margin-left: 55px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    border: solid 1px;
+    border-color: black;
+}
+
+#gallerypic2 {
+    width: 700px;
+    height: 426px;
+    margin-left: 35px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    border: solid 1px;
+    border-color: black;
+}
+
+#gallerypic3 {
+    width: 20%;
+    margin-left: 35px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    border: solid 1px;
+    border-color: black;
+}
+
+#gallerypic4 {
+    width: 20%;
+    margin-left: 55px;
+    max-height: 426px;
+    margin-bottom: 35px;
+    border: solid 1px;
+    border-color: black;
+}
+
+#gallerypic5 {
+    width: 700px;
+    height: 426px;
+    margin-left: 35px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    border: solid 1px;
+    border-color: black;
+}
+
+#gallerypic6 {
+    width: 20%;
+    margin-left: 35px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    border: solid 1px;
+    border-color: black;
+}
+
+#gallerypic8 {
+    width: 20%;
+    margin-left: 55px;
+    height: 426px;
+    margin-bottom: 35px;
+    margin-top: 35px;
+    border: solid 1px;
+    border-color: black;
+}
+
+#gallerypic7 {
+    width: 700px;
+    height: 426px;
+    margin-left: 35px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    border: solid 1px;
+    border-color: black;
+}
+
+#gallerypic9 {
+    width: 20%;
+    margin-left: 35px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    border: solid 1px;
+    border-color: black;
+}
+
+#gallerypic11 {
+    width: 700px;
+    height: 426px;
+    margin-left: 35px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    border: solid 1px;
+    border-color: black;
+}
+
+#gallerypic10 {
+    width: 20%;
+    margin-left: 55px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    border: solid 1px;
+    border-color: black;
+}
+
+#gallerypic12 {
+    width: 20%;
+    margin-left: 35px;
+    margin-top: 35px;
+    height: 426px;
+    margin-bottom: 35px;
+    border: solid 1px;
+    border-color: black;
+}
+
+#gallerypic13 {
+    width: 20%;
+    margin-left: 55px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    border: solid 1px;
+    border-color: black;
+    height: 426px;
+}
+
+#gallerypic14 {
+    width: 700px;
+    height: 426px;
+    margin-left: 35px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    border: solid 1px;
+    border-color: black;
+}
+
+.gallery1 {
+}
+
+#footer {
+    height: 150px;
+    border: solid black 1px;
+    position: relative;
+    display: block;
+    width: 1546px;
+}
+
+#footerText {
+    text-align: left;
+    display: block;
+    padding: 0;
+    font-weight: 900;
+    font-size: 30px;
+    padding-bottom: 0;
+    position: absolute;
+    top: 35px;
+    left: 15%;
+    margin-top: 20px;
+}
+
+#log {
+    background-image: url(../images/zaufali_nam/cropped-mardim-budownictwo-logo-1-1.jpg);
+    height: 120px;
+    width: 1500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation-name: moja_animacja2;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: step-start;
+    margin-top: 15px;
+}
+
+@keyframes moja_animacja2 {
+    0% {
+        background-image: url(../images/images/zaufali_nam/cropped-mardim-budownictwo-logo-1-1.jpg);
+    }
+
+    25% {
+        background-image: url(../images/images/zaufali_nam/ph-logo-loxone-green.jpg);
+    }
+
+    50% {
+        background-image: url(../images/zaufali_nam/logo-saak.png);
+    }
+
+    75% {
+        background-image: url(../images/zaufali_nam/logo-kryst.jpg);
+    }
+}
+
+#body {
+    
+}
+
+.partner {
+    height: 200px;
+    width: 1548px;
+    position: relative;
+}
+
+#tekst1 {
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+}
+
+.partnerimg {
+    height: 90px;
+    max-width: 400px;
+    float: left;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+}
+
+#typklienta {
+    margin-left: 100px;
+}
